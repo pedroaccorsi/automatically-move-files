@@ -64,7 +64,7 @@ class DirectoryEventHandler(FileSystemEventHandler):
         if  (file_ext == '.jpg'  or file_ext == '.png' ): return self.downloads +'images/'    
         elif(file_ext == '.zip'  or file_ext == '.rar' ): return self.downloads +'compressed/'
         elif(file_ext == '.mkv'  or file_ext == '.mp4' ): return self.downloads +'videos/'    
-        elif(file_ext == '.docx' or file_ext == 'doc'  ): return self.downloads +'words/'     
+        elif(file_ext == '.docx' or file_ext == '.doc' ): return self.downloads +'words/'     
         elif(file_ext == '.sap'                        ): return self.downloads +'conections/'
         elif(file_ext == '.torrent'                    ): return self.downloads +'torents/'   
         elif(file_ext == '.xlsx'                       ): return self.downloads +'excel/'
